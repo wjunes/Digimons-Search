@@ -1,0 +1,72 @@
+/* Colunas: HP, ATK e DEF */
+
+.container-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    justify-content: flex-start;
+    height: 20px;
+    margin: 0.3rem 0;
+}
+
+.a-info__column{
+   display: flex;
+   align-items: center;
+   margin: 0.3rem 0;
+   justify-content: space-around;
+   font-weight: 400;
+   color: white;
+}
+
+/* BARRINHAS */
+
+.b-nv-ex__progressHp{
+    position: relative;
+    background-color:  #ffffff;
+    height: 25px;
+    width: 80%;
+    border-radius: 35px;
+}
+
+.b-nv-in__progress-hp{
+    position: absolute;
+    background-color:  #d8d8d8;
+    height: 100%;
+    width: 0;
+    border-radius: 35px;
+}
+
+
+.b-nv-ex__progressAtk{
+    position: relative;
+    background-color:  #ffffff;
+    height: 25px;
+    width: 80%;
+    border-radius: 35px;
+}
+
+.b-nv-in__progress-atk{
+    position: absolute;
+    background-color:  #d8d8d8;
+    height: 25px;
+    width: auto;
+    border-radius: 35px;
+}
+
+
+.b-nv-ex__progressDef{
+    position: relative;
+    background-color:  #ffffff;
+    height: 25px;
+    width: 80%;
+    border-radius: 35px;
+}
+
+.b-nv-in__progress-def{
+    position: absolute;
+    background-color:  #d8d8d8;
+    height: 25px;
+    width: auto;
+    border-radius: 35px;
+}

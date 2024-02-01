@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digimon Screen</title>
+    <link rel="shortcut icon" href="https://digimon.net/favicon.ico" type="image/x-icon">
+   
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/bg__digimons.css">
+    <link rel="stylesheet" href="./src/styles/atb__digimons.css">
+    <link rel="stylesheet" href="./src/styles/card__digimons.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-bg">
+            <div class="card">
+
+                <section class="i-card__logo">
+                    <img height="70px" src="./src/assets/logo.png" alt="iconeLogo">
+                </section>
+
+                <section class="i-card__digimon">
+                    <!-- Acredito que aqui vem as imagens dos digimons -->
+                    <!--Só retirei o link da imagem fixa-->
+                    <img src="" alt="imgDigimon">
+
+                    <div class="t-bloco__name">
+                        <!-- Acredito que aqui vem o nome do digimon -->
+                        <!--Só retirei o nome do digimon -->
+                        <p id="t-nome__bt"></p>
+                    </div>
+
+                </section>
+
+                <section class="container-info">
+
+                    <div class="a-info__column">
+                        <p>HP</p>
+                        <div class="b-nv-ex__progressHp">
+                            <div class="b-nv-in__progress-hp"></div>
+                        </div>
+                    </div>
+
+                    <div class="a-info__column">
+                        <p>ATK</p>
+                        <div class="b-nv-ex__progressAtk">
+                            <div class="b-nv-in__progress-atk"></div>
+                        </div>
+                    </div>
+
+                    <div class="a-info__column">
+                        <p>DEF</p>
+                        <div class="b-nv-ex__progressDef">
+                            <div class="b-nv-in__progress-def"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+<script src="./src/scripts/script.js"></script>
+</body>
+
+</html>
